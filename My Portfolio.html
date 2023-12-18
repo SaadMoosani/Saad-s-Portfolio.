@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>My Porfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+
+nav li {
+    margin-left: -40%;
+    padding-left: -3%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    padding-left: -3%;
+    text-decoration: none;
+    color: rgb(102, 96, 96);
+    font-size: 20px;
+}
+.a1{
+    margin-left: -2%;
+}
+.a2{
+    margin-left: -16%;
+}
+.a3{
+    margin-left: -20%;
+}
+.a4{
+       margin-left: -5%;
+       color: rgb(243, 243, 243);
+}
+nav img{
+    margin-left:  -50%;
+    margin-top: -30%;
+}
+body{
+   background-image: url(../Porfolio/Images/body.png);
+   
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #343131;
+    width: 140px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgb(39, 36, 36); 
+    font-family: 'Jost', sans-serif;
+}
+hr{
+    margin-left: -40%;
+    margin-top: 5%;
+   border-top: 2.5px solid rgb(102, 96, 96);
+}
+.intro{
+    margin-left: 20%;
+    margin-top: 2%;
+    font-size: 35px;
+    box-sizing: border-box;
+    display: flex;
+}
+.intro h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.intro span{
+    color: rgb(85, 147, 218);
+}
+
+.projects h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.proj1 img{
+ margin-left: 15%;
+ margin-top: -20%;
+ border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius:10px;
+   border-bottom-left-radius: 10px;
+}
+.text-para{
+margin-left: 40%;
+z-index: 222;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+max-width: 250px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+}
+.text-para h3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-left: 5%;
+}
+.text-para p{
+    color: white;
+   margin-left: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.proj2{
+    margin-left: 60%;
+}
+.proj2 img{
+ margin-left: 15%;
+ margin-top: -20%;
+ border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius:10px;
+   border-bottom-left-radius: 10px;
+}
+.text-para1{
+margin-left: -30%;
+z-index: 222;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+max-width: 250px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+}
+.text-para1 h3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-left: 5%;
+}
+.text-para1 p{
+    color: white;
+   margin-left: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.moreprojects{
+    margin-left: 49%;
+    font-family: "Poppins", sans-serif;
+}
+.moreprojects a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+</style>
+
+<nav>
+    <ul>
+        <img src="../Porfolio/Images/Add a heading.png" width="150px" height="240px" alt="">
+  <hr>
+           <a  class="a1" href="../Porfolio/My Portfolio.html">
+           <span class="nav-item">Home</span>
+        </a><br>  <br>  <hr>
+     <a  class="a2" href="../Porfolio/About Me (My Portfolio).html">
+           <span class="nav-item">About me</span>
+        </a> <br> <br>  <hr>
+        <a  class="a3" href="../Porfolio/My Projects.html">
+           <span class="nav-item">My Projects</span>
+        </a> <br><br> <hr>
+  
+        <a class="a4" href="#">
+        <span class="nav-item">Contact</span>
+        </a> <hr>
+    </ul>
+</nav>
+   
+
+
+<div class="intro">
+    <h1>Hi, <br> I'm <span class="saad"> Saad!</span> <br>
+        I am a,
+   
+   <span class="auto-type"></span></h1>
+</div>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto-type",{
+ strings: ["Designer...and a", " Front-End Web Developer."],
+ typeSpeed:50,
+ backSpeed: 50,
+ loop : false,
+    });
+</script>
+<div class="shortcut">
+    <center>
+<a href="#projec"><img src="../Porfolio/Images/icons8-down-arrow-50.png" width="60px" height="60px" alt=""></a>
+</center>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="projects">
+    <center>
+<h1 id="projec">Some of My projects:</h1>
+</center>
+</div><br><br><br><br>
+
+<div class="proj1">
+    <div class="text-para">
+        <h3>Periodic Table</h3>
+        <p> Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Modi repellat corporis,  <br> aspernatur exercitationem cum, </p>
+       </div>
+       <br>
+   <a href=""> <img src="../Porfolio/Images/pdtable.PNG" width="350px" height="200px" alt=""></a>
+</div>
+
+<br><br>
+
+<!-- DIGITAL CLOCK -->
+<div class="proj2">
+    <div class="text-para1">
+        <h3>Periodic Table</h3>
+        <p> Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Modi repellat corporis,  <br> aspernatur exercitationem cum, </p>
+       </div>
+       <br>
+   <a href=""> <img src="../Porfolio/Images/pdtable.PNG" width="350px" height="200px" alt=""></a>
+</div>
+
+<div class="proj1">
+    <div class="text-para">
+        <h3>Periodic Table</h3>
+        <p> Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Modi repellat corporis,  <br> aspernatur exercitationem cum, </p>
+       </div>
+       <br>
+   <a href=""> <img src="../Porfolio/Images/pdtable.PNG" width="350px" height="200px" alt=""></a>
+</div>
+<br><br><br>
+<div class="moreprojects">
+<a href="../Porfolio/My Projects.html">View More</a>
+</div>
+ <br><br><br> <br> <br><br><br> <br>
+
+
+<br><br><br> <br>
+
+</body>
+</html>
